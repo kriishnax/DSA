@@ -7,6 +7,7 @@ public class Large {
         int a = sc.nextInt();
         System.out.println("Enter 2nd Number");
         int b = sc.nextInt();
+        sc.close();
         if( a>=b){
             System.out.println(a+ "largest");
         }

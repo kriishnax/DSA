@@ -6,6 +6,7 @@ public class Sum1 {
         System.out.print("enter a number to find the sum of n natural numbers:");
         int n = sc.nextInt();
         int sum = 0;
+        sc.close();
         for(int i=1;i<=n;i++){
             sum = sum + i;
         }

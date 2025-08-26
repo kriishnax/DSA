@@ -8,7 +8,7 @@ public class Calc {
         int b = sc.nextInt();
         System.out.print("Enter the operations + - * /");
         char op = sc.next().charAt(0);
-        
+        sc.close();
         switch (op) {
             case '+': System.out.print( a + b );
             break;

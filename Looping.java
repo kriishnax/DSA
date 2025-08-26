@@ -7,6 +7,7 @@ public class Looping {
         System.out.print("Enter the range:");
         int range = sc.nextInt();
         int counter = 1;
+        sc.close();
         while(counter<=range){
             System.out.println(counter);
             counter++;

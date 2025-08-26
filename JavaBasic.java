@@ -13,6 +13,7 @@ public class JavaBasic {
 
     System.out.println("enter your age");
     int number = sc.nextInt();
+    sc.close();
     System.out.println("your age is " + number + " years old"   );
 }
     
